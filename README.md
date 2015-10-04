@@ -22,3 +22,5 @@ end
 $ gem install html2slim
 $ for file in app/views/**/*.erb; do erb2slim $file ${file%erb}slim && rm $file; done
 ```
+
+[RailsとRSpecでテストがうまくいかない](http://qiita.com/hinamiyagk/items/ba21dc92d53d2034d21e)
